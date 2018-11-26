@@ -1,0 +1,18 @@
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\reckey\RecKey.exe
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\reckey\RecKeyhh.exe
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\reckey\RecKeyll.dll
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\new\dummy
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\old\dummy
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\E-Social Auto-Qualificar.exe.config
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\E-Social Auto-Qualificar.exe
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Release\E-Social Auto-Qualificar.pdb
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E_Social_Auto_Qualificar.CargaDados.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E_Social_Auto_Qualificar.Inicial.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E_Social_Auto_Qualificar.Properties.Resources.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E_Social_Auto_Qualificar.WFProfFiles.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\ResGen.read.1.tlog
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E-Social Auto-Qualificar.exe
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E-Social Auto-Qualificar.pdb
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Release\E_Social_Auto_Qualificar.Web.resources

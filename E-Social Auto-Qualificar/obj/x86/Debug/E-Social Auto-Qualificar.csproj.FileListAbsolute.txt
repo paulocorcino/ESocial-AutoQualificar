@@ -1,0 +1,18 @@
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\E-Social Auto-Qualificar.exe.config
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\E-Social Auto-Qualificar.exe
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\E-Social Auto-Qualificar.pdb
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\HtmlAgilityPack.dll
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\HtmlAgilityPack.xml
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E_Social_Auto_Qualificar.view.Captcha.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E_Social_Auto_Qualificar.view.CargaDados.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E_Social_Auto_Qualificar.Inicial.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E_Social_Auto_Qualificar.Properties.Resources.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E_Social_Auto_Qualificar.view.Opcoes.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E_Social_Auto_Qualificar.Web.resources
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E-Social Auto-Qualificar.exe
+C:\Users\paulo.corcino\documents\visual studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\obj\x86\Debug\E-Social Auto-Qualificar.pdb
+C:\Users\paulo.corcino\Documents\Visual Studio 2010\Projects\E-Social Auto-Qualificar\E-Social Auto-Qualificar\bin\Debug\EQualifica.exe.config

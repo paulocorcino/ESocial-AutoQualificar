@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71018354-2505-47BF-A750-392F4BE78A36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_Social_Auto_Qualificar</RootNamespace>
+    <AssemblyName>EQualifica</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>robot.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>E_Social_Auto_Qualificar.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\..\..\..\Downloads\HtmlAgilityPack.1.4\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SQLite, Version=1.0.91.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\System.Data.SQLite\2010\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controller\licenca\Licenca.cs" />
+    <Compile Include="controller\reports\Html2Pdf.cs" />
+    <Compile Include="controller\reports\Reports.cs" />
+    <Compile Include="model\FuncionarioGrid.cs" />
+    <Compile Include="SafeCast.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="view\Captcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Captcha.Designer.cs">
+      <DependentUpon>Captcha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controller\Inicial.cs" />
+    <Compile Include="model\Configuracao.cs" />
+    <Compile Include="model\dbconnect.cs" />
+    <Compile Include="model\dtoConfiguracao.cs" />
+    <Compile Include="model\dtoFuncionarios.cs" />
+    <Compile Include="view\CargaDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\CargaDados.Designer.cs">
+      <DependentUpon>CargaDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controller\html\EnvelopeForm.cs" />
+    <Compile Include="controller\html\EnvelopeFormSession.cs" />
+    <Compile Include="controller\html\EnvelopePostCadastro.cs" />
+    <Compile Include="controller\html\Qualificacao.cs" />
+    <Compile Include="controller\html\RetornoDataprev.cs" />
+    <Compile Include="controller\html\RetornoDataprevWeb.cs" />
+    <Compile Include="Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicial.Designer.cs">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="model\Funcionarios.cs" />
+    <Compile Include="model\HttpData.cs" />
+    <Compile Include="controller\ProcFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\Key.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Key.Designer.cs">
+      <DependentUpon>Key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Licenca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Licenca.Designer.cs">
+      <DependentUpon>Licenca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Novidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Novidades.Designer.cs">
+      <DependentUpon>Novidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Opcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Opcoes.Designer.cs">
+      <DependentUpon>Opcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="view\Captcha.resx">
+      <DependentUpon>Captcha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\CargaDados.resx">
+      <DependentUpon>CargaDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicial.resx">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Key.resx">
+      <DependentUpon>Key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Licenca.resx">
+      <DependentUpon>Licenca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Novidades.resx">
+      <DependentUpon>Novidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Opcoes.resx">
+      <DependentUpon>Opcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="data.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+    <None Include="Resources\robot.png" />
+    <None Include="Resources\control_play_blue.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\arrow_refresh.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\120x53-doar-laranja.gif" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\asterisk_yellow.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\control_stop_blue.png" />
+    <None Include="Resources\linkedin.png" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\search_accounts.png" />
+    <None Include="Resources\update1.png" />
+    <Content Include="plugin\wkhtmltopdf.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\add.png" />
+    <None Include="Resources\control_play.png" />
+    <None Include="Resources\printer.png" />
+    <Content Include="robot.ico" />
+    <None Include="Resources\Google Chrome.png" />
+    <None Include="Resources\page_refresh.png" />
+    <None Include="Resources\page_lightning.png" />
+    <None Include="Resources\cog_go1.png" />
+    <None Include="Resources\folder1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app_data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
